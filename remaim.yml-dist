@@ -8,9 +8,9 @@ phabricator:
   host: https://cator.1024.lu
   token:
 priority_map:
-  Immediate: 100
-  Urgent: 90
-  High: 80
-  Normal: 50
-  Low: 25
-  Wishlist: 10
+  Immediate: high
+  Urgent: high
+  High: high
+  Normal: normal
+  Low: low
+  Wishlist: wish
