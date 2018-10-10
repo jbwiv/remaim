@@ -281,7 +281,7 @@ trait Phabricator
                 'maniphest.search',
                 [
                     'constraints' => [
-                        'fulltext' => preg_replace('/[^\p{L}\p{N}_]+/u', ' ', $issue['subject']),
+                        'query' => preg_replace('/[^\p{L}\p{N}_]+/u', ' ', $issue['subject']),
                         'authorPHIDs' => [$this->whoami['phid']],
                         'assigned' => isset($issue['assigned_to']) ? $this->mapUsers([$issue['assigned_to']['name']]) : [],
                         'subscribers' => $subscribers,
