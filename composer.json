@@ -26,12 +26,11 @@
     },
 
     "require-dev": {
-        "phpspec/phpspec": "~3.0",
+        "phpspec/phpspec": "~4.0",
         "squizlabs/php_codesniffer": "~1.5",
         "mockery/mockery": "~0.9",
-        "henrikbjorn/phpspec-code-coverage": "dev-master",
         "php-mock/php-mock-mockery": "^1.1",
-        "bossa/phpspec2-expect": "dev-master"
+        "bossa/phpspec2-expect": "~3.0"
     },
 
     "autoload": {
