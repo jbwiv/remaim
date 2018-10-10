@@ -186,6 +186,7 @@ class Redmine
         $tasks = $this->redmine->issue->all([
             'project_id' => $project_id,
             'limit' => $this->limit,
+            'status_id' => '*',
             'sort' => 'id:asc',
         ]);
 
